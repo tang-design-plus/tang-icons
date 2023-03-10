@@ -1,9 +1,6 @@
 
 <div align="center">
-<picture>
-  <source srcset="./logo.svg" alt="tangd-desgin" width="300" height="300">
-  </source>
-</picture>
+\!\[markdown picture](./logo.svg)
 
 ## tang-icons
 基于vite+lit 自动构建的 web-components svg图标库 
