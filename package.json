@@ -1,0 +1,34 @@
+{
+  "name": "@tang/icons",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Mars",
+  "main": "dist/icons.js",
+  "exports": {
+    ".": "./dist/icons.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "optimize": "svgo -f ./src/svg/ -o ./src/svg/",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.4",
+    "camelcase": "^7.0.1",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^11.1.0",
+    "prettier": "^2.8.4",
+    "svgo": "^3.0.2",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
